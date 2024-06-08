@@ -7,17 +7,18 @@
 ###### 배포사이트: https://coollaafi-frontend.vercel.app/
 ###### 노션: https://www.notion.so/wot-weather-of-today-what-is-your-Outfit-today-women-of-twenties-a88431211b5246558e9b5000dd1bfcaf
 ## 🎯핵심기능
-#### [폐쇄형 SNS]
-최대 20명의 친구와 OOTD 사진을 주고받을 수 있는 SNS 기능입니다.
-#### [날씨에 맞는 개인 옷 추천 AI]
-사용자가 총 50장의 OOTD 사진을 올렸을 때부터 사용할 수 있는 기능입니다.<br />
-사용자가 올린 OOTD 사진 속 옷과 사진을 찍은 날짜를 매칭하여, 데이터로 넣습니다.<br />
-데이터를 기반으로 AI는 오늘 날씨에 입기 적당한 사용자의 옷을 추천합니다.<br />
-사용자는 추천 받은 옷을 입은 후, 평가(추웠는지, 더웠는지, 적당했는지)를 남길 수 있습니다.<br />
-평가 또한 추가 데이터로 넣어, AI 성능을 향상시킵니다.<br />
-#### [OOTD 콜라주]
-사용자가 자신의 OOTD 사진을 넣으면, 콜라주 형태의 이미지로 만들어주는 기능입니다.<br />
-또한, 날씨에 맞는 개인 옷 추천도 콜라주 형식의 이미지로 나오게 됩니다.<br />
+#### [AI의 today’s 옷 추천 기능]
+AI에게 자신의 체질에 맞는 자신의 옷장 속 <b>옷을 추천받을 수 있는 기능</b>입니다.<br />
+SNS에 업로드하는 OOTD 사진과 AI 옷 추천 기능을 위해 업로드 하는 사진을 포함하여 총 50장 이상의 사진을 업로드 할 시, 기능을 이용할 수 있습니다.<br />
+50장의 사진을 모두 업로드한 뒤, <b>AI의 today’s 옷 추천 버튼</b>을 누르면, 콜라주 형태의 옷 추천 이미지를 받을 수 있습니다.<br /><br />
+<img src="https://i.ibb.co/BrdJqD1/upload.png" width="200">
+<img src="https://i.ibb.co/NVm32GT/image.png" width="200">
+#### [폐쇄형 패션 SNS 기능]
+친한 친구 20명과 함께 <b>오늘의 OOTD를 공유할 수 있는 폐쇄형 SNS 기능</b>입니다.<br />
+OOTD를 찍어서 업로드할 시, 콜라주 형태의 이미지가 자동 생성됩니다.<br />
+OOTD, 콜라주, 날씨 코멘트와 짧은 글을 함께 SNS에 공유할 수 있습니다.<br /><br />
+<img src="https://i.ibb.co/8NMtFjT/SNS.png" width="200">
+<img src="https://i.ibb.co/xLBrtYL/SNS-upload.png" width="200">
 ## ⚙️기술 스택
 #### - Frontend
 <img src="https://img.shields.io/badge/html5-E34F26?style=for-the-badge&logo=html5&logoColor=white"><img src="https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=React&logoColor=white"><img src="https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=TypeScript&logoColor=white"><img src="https://img.shields.io/badge/CSS-1572B6?style=for-the-badge&logo=CSS&logoColor=white">
@@ -37,3 +38,9 @@
       <td align="center">노수진</td>
       <td align="center">변유진</td>
     </tr>
+    <tr>
+      <td align="center"><a href="https://github.com/Choi-Hanui" target="_blank">Choi-Hanui</a></td>
+      <td align="center"><a href="https://github.com/sujinRo" target="_blank" width="160">sujinRo</a></td>
+      <td align="center"><a href="https://github.com/ujiiin" target="_blank">ujiiin</a></td>
+    </tr>
+  </table>
