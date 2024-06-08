@@ -246,7 +246,7 @@ if __name__ == '__main__':
 
     # 옵티마이저 설정
     params = [p for p in model.parameters() if p.requires_grad]
-    optimizer = torch.optim.Adam(params, lr=0.001)
+    optimizer = torch.optim.SGD(params, lr=0.005, momentum=0.9, weight_decay=0.0005)
 
     # 학습 루프
     num_epochs = 10
