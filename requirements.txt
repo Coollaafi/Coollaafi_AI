@@ -1,0 +1,7 @@
+fastapi
+uvicorn
+boto3
+torch
+opencv-python
+numpy
+segment-anything  # SAM 모델을 사용할 때 필요

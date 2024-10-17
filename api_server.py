@@ -8,6 +8,11 @@ from fastapi import FastAPI, File, UploadFile, Form
 from segment_anything import sam_model_registry, SamPredictor
 from typing import List
 
+# S3 관련 정보는 환경 변수에서 불러옴
+AWS_ACCESS_KEY_ID = os.getenv("AWS_ACCESS_KEY_ID")
+AWS_SECRET_ACCESS_KEY = os.getenv("AWS_SECRET_ACCESS_KEY")
+S3_BUCKET_NAME = os.getenv("S3_BUCKET_NAME")
+
 # 선행 코드: cd C:\Users\user\Desktop\WOT\grounded-sam
 sys.path.append(os.path.join(os.getcwd(), "GroundingDINO"))
 from groundingdino.util.inference import Model
@@ -15,7 +20,6 @@ from groundingdino.util.inference import Model
 # Paths & Device
 HOME = os.getcwd()
 DEVICE = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
-S3_BUCKET_NAME = "hanihanibucket"
 
 # Model Paths
 GROUNDING_DINO_CONFIG = os.path.join(HOME, "GroundingDINO/groundingdino/config/GroundingDINO_SwinT_OGC.py")
@@ -30,8 +34,12 @@ sam_predictor = SamPredictor(sam)
 # Initialize FastAPI app
 app = FastAPI()
 
-# AWS S3 Client
-s3 = boto3.client('s3')
+# AWS S3 클라이언트 초기화
+s3 = boto3.client(
+    's3',
+    aws_access_key_id=AWS_ACCESS_KEY_ID,
+    aws_secret_access_key=AWS_SECRET_ACCESS_KEY
+)
 
 # Categories
 CATEGORIES = {
