@@ -1,0 +1,5 @@
+# ninja log v5
+8	7354	7490574821069899	C:/Users/user/Desktop/WOT/segmentation/GroundingDINO/build/temp.win-amd64-3.9/Release/Users/user/Desktop/WOT/segmentation/GroundingDINO/groundingdino/models/GroundingDINO/csrc/MsDeformAttn/ms_deform_attn_cpu.obj	ef53a6e0f9b5cbb4
+47	16274	7490574910235868	C:/Users/user/Desktop/WOT/segmentation/GroundingDINO/build/temp.win-amd64-3.9/Release/Users/user/Desktop/WOT/segmentation/GroundingDINO/groundingdino/models/GroundingDINO/csrc/vision.obj	79c7dd0765533cf4
+10	7214	7490592351991621	C:/Users/user/Desktop/WOT/segmentation/GroundingDINO/build/temp.win-amd64-3.9/Release/Users/user/Desktop/WOT/segmentation/GroundingDINO/groundingdino/models/GroundingDINO/csrc/MsDeformAttn/ms_deform_attn_cpu.obj	3d9cc748bb1a3fc9
+54	16354	7490592443294828	C:/Users/user/Desktop/WOT/segmentation/GroundingDINO/build/temp.win-amd64-3.9/Release/Users/user/Desktop/WOT/segmentation/GroundingDINO/groundingdino/models/GroundingDINO/csrc/vision.obj	5ab8b6a2abdf166a
