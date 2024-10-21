@@ -4,7 +4,6 @@ addict
 diffusers
 numpy
 onnxruntime
-opencv_python
 Pillow
 pycocotools
 PyYAML
